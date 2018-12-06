@@ -1,0 +1,272 @@
+
+body {
+    background-color: rgb(243, 243, 243);
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+/* === HEADER === */
+
+.main-header{
+   
+    text-align: center;
+    
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.main-header h1 {
+    padding-top: 5px;
+   
+}
+
+.main-header p {
+    padding: 30px;
+    padding-bottom:30px;
+
+}
+
+
+.main-nav li {
+    display: block;
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+   
+}
+
+.main-nav {
+    text-align: center;
+}
+
+.profile-image {
+    width: 250px;
+
+}
+
+/* === MAIN BODY === */
+
+.container {
+    background-color: white;
+    text-align: center;
+    padding: 30px 5px 40px 5px;
+}
+
+img {
+    width: 350px;
+}
+
+.portfolio {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 20px;
+
+}
+
+.project h2 {
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.project p {
+
+    padding: 5px 20px 20px 20px;
+}
+
+
+
+
+/* === LINKS === */
+
+a {
+    color: black;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* === FOOTER === */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.main-footer h3 {
+    float: left;
+    margin-top: 0px;
+    
+}
+
+.main-footer a {
+    text-transform: uppercase;
+    float: right;
+
+}
+
+
+.main-footer {
+    padding-top: 20px;
+
+}
+
+.widescreen-nav {
+    display: none;
+}
+
+
+
+
+/* === CONTACT === */
+
+.contact {
+    padding-bottom: 40px;
+
+}
+
+.contact-info {
+    font-weight: bold; 
+    padding-left: 10px;
+}
+
+.contact p{
+    padding-top: 10px;
+    
+}
+
+.contact h3 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+
+
+
+/* === MEDIA QUERIES === */
+
+@media (min-width: 768px) {
+
+
+
+.main-nav li {
+    display: inline-block;
+    background-color: rgb(243, 243, 243)
+
+}    
+
+.main-header p {
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+
+.profile-image {
+    float: right;
+    padding: 0 20px 20px 20px;
+
+}
+
+#marketing,
+#search,
+#travel,
+#favourite,
+#gallery,
+#calculator {
+    width: 50%;
+    float: left;
+
+}
+
+.contact p {
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.contact h3 {
+    padding-bottom: 0px;
+
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.widescreen-nav {
+    display: block;
+  
+  
+    
+  }
+  
+.widescreen-nav li {
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+    
+  }
+
+.widescreen-nav ul {
+    margin-right: 0px;
+
+} 
+  
+  
+.main-footer {
+    margin-right: 0px;
+  
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
